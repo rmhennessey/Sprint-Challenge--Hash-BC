@@ -16,7 +16,7 @@ def get_indices_of_item_weights(weights, length, limit):
     hash_table_insert(ht, weights[0], 0)
     # initialize current index
     current_index = 1
-    # loop through adding weights & checking
+    # loop thru adding weights & checking
     while current_index < length:
         current_weight = weights[current_index]
         # insert weight to ht
